@@ -1,6 +1,9 @@
 import React from 'react'
-import './App.css'
 
-const App: React.FC = () => <div className="App">Hello world!</div>
+import Menu from './components/Menu'
+
+const App: React.FC = () => {
+  return <Menu />
+}
 
 export default App
